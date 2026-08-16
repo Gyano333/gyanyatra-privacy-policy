@@ -7,13 +7,14 @@
 
 <title>GyanYatra - Privacy Policy & Terms</title>
 
-<meta name="description" content="Privacy Policy and Terms & Conditions for the GyanYatra educational learning application.">
+<meta name="description" content="GyanYatra Privacy Policy and Terms & Conditions. Learn about our educational application and how information is handled.">
 
 <style>
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -21,7 +22,6 @@ html {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
     background: #f5f7fa;
     color: #222;
     line-height: 1.7;
@@ -29,8 +29,8 @@ body {
 
 header {
     background: linear-gradient(135deg, #1565c0, #0d47a1);
-    color: #fff;
-    padding: 50px 20px;
+    color: white;
+    padding: 45px 20px;
     text-align: center;
 }
 
@@ -45,40 +45,41 @@ header p {
 }
 
 nav {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 18px;
-    padding: 16px 20px;
-    background: #fff;
+    gap: 20px;
+    padding: 18px;
+    background: white;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 nav a {
-    color: #1565c0;
     text-decoration: none;
+    color: #1565c0;
     font-weight: bold;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #0d47a1;
 }
 
 .container {
-    max-width: 1050px;
+    max-width: 1100px;
     margin: auto;
     padding: 40px 20px;
 }
 
 .card {
-    background: #fff;
-    padding: 32px;
+    background: white;
+    padding: 30px;
     margin-bottom: 25px;
     border-radius: 12px;
-    box-shadow: 0 3px 14px rgba(0,0,0,0.07);
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
 }
 
 h2 {
@@ -88,10 +89,9 @@ h2 {
 }
 
 h3 {
-    color: #0d47a1;
-    margin-top: 25px;
+    margin-top: 24px;
     margin-bottom: 10px;
-    font-size: 20px;
+    color: #0d47a1;
 }
 
 p {
@@ -104,41 +104,58 @@ ul {
 }
 
 li {
-    margin-bottom: 6px;
+    margin-bottom: 7px;
 }
 
-.info {
-    background: #eef5ff;
-    border-left: 4px solid #1565c0;
-    padding: 15px 18px;
+.notice {
+    background: #e3f2fd;
+    border-left: 5px solid #1565c0;
+    padding: 18px;
     margin: 20px 0;
-    border-radius: 5px;
+    border-radius: 6px;
+}
+
+.contact-box {
+    background: #f5f9ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
 }
 
 footer {
     background: #0d47a1;
-    color: #fff;
-    text-align: center;
+    color: white;
     padding: 30px 20px;
-    margin-top: 40px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 footer a {
-    color: #fff;
-}
-
-.email {
-    color: #1565c0;
-    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
 
 @media (max-width: 600px) {
+
     header h1 {
         font-size: 32px;
     }
 
     header p {
         font-size: 16px;
+    }
+
+    nav {
+        gap: 12px;
+        padding: 14px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 25px 15px;
     }
 
     .card {
@@ -148,10 +165,6 @@ footer a {
     h2 {
         font-size: 24px;
     }
-
-    h3 {
-        font-size: 19px;
-    }
 }
 </style>
 
@@ -160,18 +173,30 @@ footer a {
 <body>
 
 <header id="home">
-    <h1>📘 GyanYatra</h1>
-    <p>Learn Smarter. Grow Faster.</p>
+
+```
+<h1>📘 GyanYatra</h1>
+
+<p>Learn Smarter. Grow Faster.</p>
+```
+
 </header>
 
 <nav>
-    <a href="#home">Home</a>
-    <a href="#privacy">Privacy Policy</a>
-    <a href="#terms">Terms & Conditions</a>
-    <a href="#contact">Contact</a>
+
+```
+<a href="#home">Home</a>
+
+<a href="#privacy">Privacy Policy</a>
+
+<a href="#terms">Terms & Conditions</a>
+
+<a href="#contact">Contact</a>
+```
+
 </nav>
 
-<main class="container">
+<div class="container">
 
 <!-- HOME -->
 
@@ -182,29 +207,26 @@ footer a {
 
 <p>
     GyanYatra is an educational learning platform designed to help
-    students access study materials and practice educational
-    content through a mobile application.
+    students access study materials and practice resources.
 </p>
 
 <p>
-    Depending on the subjects, classes, and features available in
-    the application, GyanYatra may provide:
+    The Version 1 application provides educational content such as:
 </p>
 
 <ul>
-    <li>Chapter summaries</li>
-    <li>Study materials</li>
-    <li>Multiple-choice questions (MCQs)</li>
-    <li>Question banks</li>
-    <li>Book-related answers or educational resources</li>
-    <li>PDF educational materials</li>
-    <li>Quiz and practice features</li>
+    <li>MCQs</li>
+    <li>Question Banks</li>
+    <li>Chapter Summaries</li>
+    <li>Study Materials</li>
+    <li>PDF Educational Materials</li>
+    <li>Quiz and Practice Resources</li>
 </ul>
 
-<div class="info">
-    <strong>Important:</strong>
-    The availability of particular features or educational materials
-    may change as the application is updated.
+<div class="notice">
+    <strong>Version 1 Privacy Notice:</strong>
+    GyanYatra Version 1 does not currently provide user login,
+    account registration, or advertising through AdMob.
 </div>
 ```
 
@@ -218,249 +240,126 @@ footer a {
 <h2>Privacy Policy</h2>
 
 <p>
-    <strong>Effective Date:</strong> August 2026
+    <strong>Effective Date:</strong> August 16, 2026
 </p>
 
 <p>
     This Privacy Policy explains how GyanYatra handles information
-    when you use the GyanYatra application and related services.
+    when you use the GyanYatra application and related website.
 </p>
 
-<h3>1. Information We May Collect</h3>
+<h3>1. Information We Collect</h3>
 
 <p>
-    Depending on the features you use, GyanYatra may process limited
-    information necessary to operate the application.
-</p>
-
-<ul>
-    <li>
-        <strong>Account information:</strong>
-        Information provided when creating or using an account,
-        such as an email address.
-    </li>
-
-    <li>
-        <strong>Authentication information:</strong>
-        Information required to securely authenticate your account.
-    </li>
-
-    <li>
-        <strong>Technical information:</strong>
-        Information necessary for application operation, security,
-        troubleshooting, and compatibility.
-    </li>
-
-    <li>
-        <strong>Usage information:</strong>
-        Information about interaction with application features,
-        where such information is collected by the services used
-        by the application.
-    </li>
-</ul>
-
-<p>
-    We do not intentionally request personal information that is not
-    necessary for the operation of the application.
-</p>
-
-
-<h3>2. How We Use Information</h3>
-
-<p>
-    Information may be used for purposes including:
-</p>
-
-<ul>
-    <li>Creating and managing user accounts</li>
-    <li>Providing educational content and application features</li>
-    <li>Maintaining application security</li>
-    <li>Improving application functionality and performance</li>
-    <li>Identifying and resolving technical problems</li>
-    <li>Responding to support or account-related requests</li>
-    <li>Displaying advertisements where advertising is enabled</li>
-    <li>Complying with applicable legal requirements</li>
-</ul>
-
-
-<h3>3. Authentication and Data Storage</h3>
-
-<p>
-    GyanYatra may use third-party infrastructure services, including
-    Supabase, to provide services such as authentication and data
-    storage.
+    GyanYatra Version 1 does not require users to create an account
+    or log in to use the educational content available in the app.
 </p>
 
 <p>
-    Information processed through these services may be subject to
-    the privacy policies and terms of the respective service
-    providers.
+    We do not intentionally collect personal information such as
+    your name, email address, phone number, or password through
+    a user registration or login system in Version 1.
 </p>
 
+<h3>2. Educational Content</h3>
+
+<p>
+    GyanYatra provides educational materials including MCQs,
+    question banks, chapter summaries, study materials, and
+    educational PDF resources.
+</p>
+
+<p>
+    Some educational content may be provided from external or
+    publicly available educational sources. Where applicable,
+    appropriate attribution may be provided.
+</p>
+
+<h3>3. Third-Party Services</h3>
+
+<p>
+    GyanYatra may use technical services required to host, store,
+    retrieve, or deliver educational content and operate the
+    application.
+</p>
+
+<p>
+    Version 1 does not currently use Google AdMob for advertising
+    and does not currently provide user authentication.
+</p>
 
 <h3>4. Advertising</h3>
 
 <p>
-    GyanYatra may display advertisements through third-party
-    advertising providers such as Google AdMob.
+    GyanYatra Version 1 does not currently display advertisements
+    through Google AdMob or another advertising platform.
+</p>
+
+<h3>5. Analytics and Tracking</h3>
+
+<p>
+    GyanYatra Version 1 does not intentionally use a user account
+    tracking system. If analytics or other tracking technologies
+    are introduced in a future version, this Privacy Policy may
+    be updated to explain the information collected and how it is
+    used.
+</p>
+
+<h3>6. Children's Privacy</h3>
+
+<p>
+    GyanYatra is an educational application intended to provide
+    learning resources to students.
 </p>
 
 <p>
-    Advertising providers may process information such as advertising
-    identifiers, device-related information, and information required
-    to provide, measure, or personalize advertisements, subject to
-    their applicable policies and settings.
+    Version 1 does not require students to create an account or
+    submit personal information in order to access the educational
+    content.
 </p>
 
 <p>
-    Advertising may be used to help support the availability of
-    educational features without requiring users to pay for every
-    feature.
+    Parents or guardians who have questions or concerns regarding
+    privacy may contact us using the contact information below.
 </p>
 
-
-<h3>5. Information Sharing</h3>
-
-<p>
-    GyanYatra does not sell users' personal information.
-</p>
+<h3>7. Data Security</h3>
 
 <p>
-    Information may be processed by third-party service providers
-    that are necessary to operate the application, including services
-    for authentication, data storage, advertising, security,
-    infrastructure, or other essential functions.
+    We take reasonable measures to maintain the security and
+    integrity of the application and its educational resources.
 </p>
 
 <p>
-    Information may also be disclosed where required by applicable
-    law or where reasonably necessary to protect the security,
-    rights, or property of the application and its users.
+    However, no internet-based service can be guaranteed to be
+    completely secure.
 </p>
 
-
-<h3>6. Data Security</h3>
+<h3>8. External Links and Resources</h3>
 
 <p>
-    We take reasonable measures intended to protect information
-    processed through GyanYatra from unauthorized access, alteration,
-    disclosure, or destruction.
+    GyanYatra may contain links to external websites or resources.
+    We are not responsible for the privacy practices, content,
+    or security practices of external websites.
 </p>
 
-<p>
-    However, no internet-based service or electronic storage system
-    can be guaranteed to be completely secure.
-</p>
-
-
-<h3>7. Account and Data Deletion</h3>
+<h3>9. Changes to This Privacy Policy</h3>
 
 <p>
-    Users may request deletion of their GyanYatra account and
-    associated personal information by contacting us at:
+    This Privacy Policy may be updated when GyanYatra introduces
+    new features, services, or data practices.
 </p>
 
 <p>
-    <strong class="email">
-        gp.production.dev@gmail.com
-    </strong>
+    Any significant changes will be reflected on this page.
 </p>
 
-<p>
-    Please include sufficient information for us to identify the
-    relevant account. Valid deletion requests will be reviewed and
-    processed in accordance with applicable requirements.
-</p>
+<h3>10. Contact Regarding Privacy</h3>
 
 <p>
-    Certain information may need to be retained where required for
-    legal, security, fraud-prevention, dispute-resolution, or other
-    legitimate purposes.
-</p>
-
-
-<h3>8. Data Retention</h3>
-
-<p>
-    We retain information only for as long as reasonably necessary
-    to provide the application, maintain security, comply with legal
-    obligations, resolve disputes, or fulfill other legitimate
-    operational purposes.
-</p>
-
-<p>
-    When information is no longer required, it may be deleted or
-    anonymized, subject to applicable requirements and the policies
-    of relevant service providers.
-</p>
-
-
-<h3>9. Children's Privacy</h3>
-
-<p>
-    GyanYatra is an educational application that may be used by
-    students.
-</p>
-
-<p>
-    We do not intentionally request unnecessary personal information
-    from children.
-</p>
-
-<p>
-    Parents or guardians who believe that a child has provided
-    personal information to GyanYatra without appropriate permission
-    may contact us at the email address provided on this page.
-</p>
-
-
-<h3>10. Third-Party Services</h3>
-
-<p>
-    GyanYatra may use third-party services to operate certain
-    application functions. These may include services such as:
-</p>
-
-<ul>
-    <li>Supabase for authentication and data-related services</li>
-    <li>Google AdMob for advertising</li>
-    <li>Other infrastructure or service providers required to operate the application</li>
-</ul>
-
-<p>
-    Third-party providers may have their own privacy policies and
-    terms governing how information is processed.
-</p>
-
-
-<h3>11. Changes to This Privacy Policy</h3>
-
-<p>
-    We may update this Privacy Policy from time to time to reflect
-    changes to the application, services, legal requirements, or
-    data practices.
-</p>
-
-<p>
-    When changes are made, the updated version will be published on
-    this page together with an updated effective date where
-    appropriate.
-</p>
-
-
-<h3>12. Contact Regarding Privacy</h3>
-
-<p>
-    If you have questions, concerns, or requests relating to this
-    Privacy Policy or your personal information, please contact:
-</p>
-
-<p>
-    <strong>GyanYatra</strong><br>
-    Email:
-    <strong class="email">
-        gp.production.dev@gmail.com
-    </strong>
+    If you have questions, concerns, or requests regarding this
+    Privacy Policy, you can contact us using the information
+    provided in the Contact section below.
 </p>
 ```
 
@@ -474,239 +373,130 @@ footer a {
 <h2>Terms & Conditions</h2>
 
 <p>
-    <strong>Effective Date:</strong> August 2026
-</p>
-
-<p>
-    These Terms & Conditions govern your use of the GyanYatra
-    application and related services.
-</p>
-
-
-<h3>1. Acceptance of Terms</h3>
-
-<p>
-    By accessing or using GyanYatra, you agree to comply with these
+    By accessing or using GyanYatra, you agree to follow these
     Terms & Conditions.
 </p>
 
+<h3>1. Educational Purpose</h3>
+
 <p>
-    If you do not agree with these Terms, you should not use the
-    application.
+    GyanYatra is provided primarily for educational and study
+    purposes. The application is designed to help students
+    practice and access learning resources.
 </p>
 
-
-<h3>2. Educational Purpose</h3>
-
-<p>
-    GyanYatra is provided as an educational learning and practice
-    platform.
-</p>
+<h3>2. Educational Content</h3>
 
 <p>
-    Educational materials are intended to assist learning and exam
-    preparation. They should not be treated as a substitute for
-    official textbooks, school instructions, teachers, or educational
-    authorities.
-</p>
-
-
-<h3>3. Educational Content</h3>
-
-<p>
-    GyanYatra may provide summaries, MCQs, question banks, PDFs,
-    practice questions, book-related answers, and other educational
+    GyanYatra may provide MCQs, question banks, summaries,
+    study materials, PDFs, quizzes, and other educational
     resources.
 </p>
 
 <p>
-    We aim to provide useful and accurate educational content, but
-    we do not guarantee that every item will always be complete,
-    error-free, or suitable for every examination or curriculum.
+    Educational materials are provided for learning and
+    examination-preparation purposes.
 </p>
 
-
-<h3>4. User Accounts</h3>
-
-<p>
-    Some features may require users to create an account or sign in.
-</p>
+<h3>3. Accuracy of Information</h3>
 
 <p>
-    Users are responsible for providing accurate information and for
-    maintaining the security of their account credentials.
+    We aim to provide useful and accurate educational content.
+    However, educational materials may contain mistakes,
+    omissions, or outdated information.
 </p>
 
 <p>
-    Users should not intentionally provide false information or use
-    another person's account without authorization.
+    Users should verify important information with their
+    official textbooks, teachers, educational institutions,
+    or other authoritative sources where appropriate.
 </p>
 
-
-<h3>5. Acceptable Use</h3>
-
-<p>
-    Users must use GyanYatra only for lawful and educational
-    purposes.
-</p>
-
-<p>Users must not:</p>
+<h3>4. User Responsibilities</h3>
 
 <ul>
-    <li>Attempt to disrupt or damage the application</li>
-    <li>Attempt to gain unauthorized access to systems or accounts</li>
-    <li>Use the application for fraudulent or unlawful activities</li>
-    <li>Abuse, exploit, or interfere with application services</li>
-    <li>Redistribute protected content without appropriate permission</li>
+    <li>Use the application for lawful purposes.</li>
+    <li>Do not attempt to damage or disrupt the application.</li>
+    <li>Do not misuse the educational resources.</li>
+    <li>Do not attempt unauthorized access to application systems.</li>
+    <li>Do not redistribute protected content without permission.</li>
 </ul>
 
-
-<h3>6. Advertising</h3>
+<h3>5. Intellectual Property</h3>
 
 <p>
-    GyanYatra may display advertisements provided by third-party
-    advertising services such as Google AdMob.
+    The GyanYatra name, logo, application design, original graphics,
+    and original educational materials created by GyanYatra are
+    protected to the extent permitted by applicable law.
 </p>
 
 <p>
-    Advertisements may appear within or around certain application
-    features.
+    Some educational content may belong to third parties. Such
+    content remains subject to the rights of its respective owners.
+</p>
+
+<h3>6. Copyright and Content Removal</h3>
+
+<p>
+    If you believe that material available through GyanYatra
+    infringes your copyright or other rights, please contact us
+    with sufficient information to identify the material and
+    explain your concern.
+</p>
+
+<h3>7. Advertising</h3>
+
+<p>
+    GyanYatra Version 1 does not currently contain advertisements
+    through Google AdMob.
 </p>
 
 <p>
-    GyanYatra is not responsible for the content, products, or
-    services offered by third-party advertisers.
+    If advertising is introduced in a future version, these Terms
+    and the Privacy Policy may be updated accordingly.
 </p>
 
-
-<h3>7. Intellectual Property</h3>
-
-<p>
-    GyanYatra's original software, application design, logos,
-    graphics, branding, and original educational materials are
-    protected by applicable intellectual-property laws.
-</p>
+<h3>8. Account Registration</h3>
 
 <p>
-    Third-party materials, trademarks, textbook content, names,
-    logos, or other copyrighted materials remain the property of
-    their respective owners unless otherwise stated.
+    GyanYatra Version 1 does not currently require user account
+    registration or login.
 </p>
 
 <p>
-    Users must not copy, reproduce, modify, distribute, or commercially
-    exploit protected GyanYatra content without appropriate
-    authorization.
+    If account-based features are introduced in a future version,
+    the applicable Terms & Conditions and Privacy Policy may be
+    updated.
 </p>
 
-
-<h3>8. Third-Party Services</h3>
+<h3>9. Availability</h3>
 
 <p>
-    Certain GyanYatra features may depend on third-party services,
-    including authentication, storage, advertising, hosting, or
-    other infrastructure services.
+    We may modify, update, suspend, or discontinue parts of the
+    application or its educational resources when necessary.
 </p>
 
+<h3>10. Limitation of Liability</h3>
+
 <p>
-    Availability of such features may therefore depend partly on
-    those third-party services.
+    GyanYatra is provided for educational purposes. To the extent
+    permitted by applicable law, we are not responsible for losses
+    resulting from reliance on educational information, service
+    interruptions, technical problems, or misuse of the application.
 </p>
 
-
-<h3>9. Application Availability</h3>
+<h3>11. Changes to These Terms</h3>
 
 <p>
-    We aim to keep GyanYatra available and functional, but we do not
-    guarantee uninterrupted or error-free availability.
+    We may update these Terms & Conditions when the application,
+    services, or applicable requirements change.
 </p>
 
-<p>
-    Features may occasionally be unavailable because of maintenance,
-    technical problems, updates, network issues, or third-party
-    service interruptions.
-</p>
-
-
-<h3>10. Educational Accuracy</h3>
+<h3>12. Contact</h3>
 
 <p>
-    We make reasonable efforts to provide useful educational
-    resources. However, educational content may contain mistakes,
-    omissions, outdated information, or differences from a particular
-    school's curriculum.
-</p>
-
-<p>
-    Users should verify important academic information using official
-    textbooks, teachers, schools, or relevant educational authorities
-    where appropriate.
-</p>
-
-
-<h3>11. Account and Data Deletion</h3>
-
-<p>
-    Users may request deletion of their account and associated
-    personal information by contacting:
-</p>
-
-<p>
-    <strong class="email">
-        gp.production.dev@gmail.com
-    </strong>
-</p>
-
-<p>
-    Account deletion may result in the loss of access to account-based
-    features and saved information.
-</p>
-
-
-<h3>12. Suspension or Termination</h3>
-
-<p>
-    We may restrict, suspend, or terminate access to GyanYatra where
-    reasonably necessary, including in cases of misuse, security
-    concerns, violation of these Terms, or legal requirements.
-</p>
-
-
-<h3>13. Limitation of Liability</h3>
-
-<p>
-    To the extent permitted by applicable law, GyanYatra and its
-    operators will not be responsible for losses arising from misuse
-    of the application, reliance on educational information, service
-    interruptions, or third-party services.
-</p>
-
-
-<h3>14. Changes to These Terms</h3>
-
-<p>
-    We may update these Terms & Conditions from time to time.
-</p>
-
-<p>
-    Updated Terms will be published on this page. Continued use of
-    GyanYatra after updated Terms are published may constitute
-    acceptance of the updated Terms, subject to applicable law.
-</p>
-
-
-<h3>15. Contact</h3>
-
-<p>
-    For questions regarding these Terms & Conditions, please contact:
-</p>
-
-<p>
-    <strong>GyanYatra</strong><br>
-    Email:
-    <strong class="email">
-        gp.production.dev@gmail.com
-    </strong>
+    If you have questions about these Terms & Conditions, please
+    contact us using the contact information provided below.
 </p>
 ```
 
@@ -719,33 +509,32 @@ footer a {
 ```
 <h2>Contact Us</h2>
 
-<p>
-    If you need help with GyanYatra, privacy questions, account
-    deletion, or other concerns, contact us using the email below.
-</p>
+<div class="contact-box">
 
-<p>
-    <strong>GyanYatra</strong><br>
-    Educational Learning Platform
-</p>
+    <p>
+        <strong>Developer:</strong>
+        GP.Production.dev
+    </p>
 
-<p>
-    📧 Email:
-    <strong class="email">
-        gp.production.dev@gmail.com
-    </strong>
-</p>
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:gp.production.dev@gmail.com">
+            gp.production.dev@gmail.com
+        </a>
+    </p>
+
+</div>
 ```
 
 </section>
 
-</main>
+</div>
 
 <footer>
 
 ```
 <p>
-    © 2026 GyanYatra. All rights reserved.
+    © 2026 GyanYatra Learning Platform
 </p>
 
 <p>
